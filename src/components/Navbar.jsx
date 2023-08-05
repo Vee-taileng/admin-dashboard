@@ -95,9 +95,7 @@ const Navbar = () => {
             <img src={avatar} alt="profile" className="rounded-full w-8 h-8" />
             <p className="flex items-center justify-center">
               <span className="text-gray-400 text-14">Hi, </span>{" "}
-              <span className="text-gray-400 font-bold ml-1 text-14">
-                Michael
-              </span>
+              <span className="text-gray-400 font-bold ml-1 text-14">Vee</span>
             </p>
             <MdKeyboardArrowDown className="text-gray-400 text-14" />
           </div>

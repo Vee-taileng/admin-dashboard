@@ -44,7 +44,6 @@ const App = () => {
             <div className='fixed md:static bg-main-bg dark:bg-main-dark-bg navbar w-full'>
               <Navbar />
             </div>
-          </div>
 
           {/* Div for Routing */}
           <div>
@@ -74,7 +73,8 @@ const App = () => {
               <Route path='/pyramid' element={<Pyramid/>} />
               <Route path='/stack' element={<Stacked/>} />
             </Routes>
-          </div>
+            </div>
+            </div>
         </div>
       </BrowserRouter>
     </div>
