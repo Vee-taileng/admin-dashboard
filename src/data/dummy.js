@@ -844,6 +844,10 @@ export const themeColors = [
     color: '#FB9678',
     name: 'orange-theme',
   },
+  {
+    name: 'dark-green',
+    color: '#089854'
+  }
 ];
 
 export const userProfileData = [
