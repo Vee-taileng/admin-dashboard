@@ -1,5 +1,4 @@
 import React from "react";
-
 import {
   ChartComponent,
   SeriesCollectionDirective,
@@ -9,15 +8,12 @@ import {
   Legend,
   SplineAreaSeries,
 } from "@syncfusion/ej2-react-charts";
-
 import {
   areaCustomSeries,
   areaPrimaryXAxis,
   areaPrimaryYAxis,
 } from "../../data/dummy";
-
 import { Header } from "../../components";
-
 import { useStateContext } from "../../contexts/ContextProvider";
 
 const Area = () => {

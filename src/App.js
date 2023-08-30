@@ -4,7 +4,7 @@ import { FiSettings } from "react-icons/fi"
 import { TooltipComponent } from '@syncfusion/ej2-react-popups'
 
 import { Navbar, Footer, Sidebar, ThemeSetting } from "./components"
-import {Ecommerce, Area, Bar, ColorMapping, Financial, Line, Pie, Pyramid, Stacked, Calendar, ColorPicker, Customer, Editor, Employees, Kanban, Orders } from "./pages"
+import {Ecommerce, Area, Bar, ColorMapping, Financial, Line, Pie, Pyramid, Calendar, ColorPicker, Customer, Editor, Employees, Kanban, Orders } from "./pages"
 
 import {useStateContext} from "./contexts/ContextProvider"
 
@@ -73,7 +73,6 @@ const App = () => {
               <Route path='/financial' element={<Financial/>} />
               <Route path='/color-mapping' element={<ColorMapping/>} />
               <Route path='/pyramid' element={<Pyramid/>} />
-              <Route path='/stack' element={<Stacked/>} />
             </Routes>
             </div>
             </div>
